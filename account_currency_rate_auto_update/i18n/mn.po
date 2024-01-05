@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_fast_load
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-12 10:01+0000\n"
+"PO-Revision-Date: 2018-01-13 12:39+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: mn\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: pos_fast_load
+#. openerp-web
+#: code:addons/pos_fast_load/static/src/js/models.js:34
+#, python-format
+msgid "Loading"
+msgstr "Ачаалж байна"
+
+#. module: pos_fast_load
+#: model:ir.model.fields,field_description:pos_fast_load.field_pos_config_pos_cache_write_date
+#: model:ir.model.fields,field_description:pos_fast_load.field_product_pricelist_pos_cache_write_date
+msgid "POS Cache Last Updated on"
+msgstr "ПОС кейш сүүлд шинэчлэгдсэн огноо"
+
+#. module: pos_fast_load
+#: model:ir.model.fields,field_description:pos_fast_load.field_product_pricelist_pos_cache
+msgid "Pos cache"
+msgstr "ПОС кейш"
+
+#. module: pos_fast_load
+#: model:ir.model.fields,field_description:pos_fast_load.field_product_pricelist_pos_cache_product_domain
+msgid "Pos cache product domain"
+msgstr "ПОС кейш барааны домейн"
+
+#. module: pos_fast_load
+#: model:ir.model.fields,field_description:pos_fast_load.field_product_pricelist_pos_cache_product_fields
+msgid "Pos cache product fields"
+msgstr "ПОС кейш барааны талбарууд"
+
+#. module: pos_fast_load
+#: model:ir.model,name:pos_fast_load.model_product_pricelist
+msgid "Pricelist"
+msgstr "Үнийн хүснэгт"
+
+#. module: pos_fast_load
+#: model:ir.model,name:pos_fast_load.model_pos_config
+msgid "pos.config"
+msgstr "pos.config"

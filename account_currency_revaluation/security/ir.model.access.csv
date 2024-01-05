@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_currency_revaluation_manager,account.currency.revaluation_manager,model_account_currency_revaluation,account.group_account_manager,1,1,1,1
+access_account_currency_revaluation_line_manager,account.currency.revaluation.line_manager,model_account_currency_revaluation_line,account.group_account_manager,1,1,1,1

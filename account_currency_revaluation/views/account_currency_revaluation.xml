@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="account_currency_revaluation_view_tree" model="ir.ui.view">
+        <field name="name">Account Currency Revaluation Tree</field>
+        <field name="model">account.currency.revaluation</field>
+        <field name="arch" type="xml">
+            <tree decoration-info="state=='draft'" decoration-muted="state=='posted'" edit="false">
+                <field name="date"/>
+                <field name="name"/>
+                <field name="rate"/>
+                <field name="currency_id"/>
+                <field name="journal_id"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record id="account_currency_revaluation_view_form" model="ir.ui.view">
+        <field name="name">Account Currency Revaluation Form</field>
+        <field name="model">account.currency.revaluation</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="compute" string="Compute" type="object" states="draft" class="oe_highlight"/>
+                    <button name="post" string="Post" type="object" states="computed" class="oe_highlight"/>
+                    <button name="cancel_computation" string="Cancel Computation" type="object" states="computed"/>
+                    <field name="state" widget="statusbar" statusbar_visible="computed,posted"/>
+                </header>
+                <sheet>
+                    <div class="oe_title" attrs="{'invisible': [('state', '=', 'draft')]}">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="date" attrs="{'readonly': [('state', '!=', 'draft')]}" />
+                            <field name="currency_id" options="{'no_create': True, 'no_open': True}" attrs="{'readonly': [('state', '!=', 'draft')]}" />
+                            <field name="journal_id" attrs="{'readonly': [('state', '!=', 'draft')]}" />
+                            <field name="company_currency_id" invisible="1" />
+                        </group>
+                        <group>
+                            <field name="rate" attrs="{'invisible': [('state', '=', 'draft')], 'readonly': [('state', '!=', 'draft')]}" />
+                        </group>
+                    </group>
+                    <notebook attrs="{'invisible': [('state', '=', 'draft')]}">
+                        <page string="Lines">
+                            <field name="line_ids" nolabel="1" widget="one2many_list">
+                                <tree>
+                                    <field name="account_id" />
+                                    <field name="balance_original" />
+                                    <field name="balance_prev_rate" />
+                                    <field name="balance_last_rate" />
+                                    <field name="difference" />
+                                    <field name="currency_id" invisible="1" />
+                                    <field name="company_currency_id" invisible="1" />
+                                </tree>
+                            </field>
+                            <group class="oe_subtotal_footer oe_right" attrs="{'invisible': [('state', '=', 'draft')]}">
+                                <field name="difference_total" class="oe_subtotal_footer_separator"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <act_window id="account_currency_revaluation_action"
+        name="Currency Revaluation"
+        res_model="account.currency.revaluation"
+        view_mode="tree,form"/>
+                
+    <menuitem id="account_currency_revaluation_menu"
+        name="Currency Revaluation"
+        action="account_currency_revaluation_action"
+        parent="account.menu_finance_entries"
+        sequence="30"/>
+</odoo>

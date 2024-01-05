@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="base.action_currency_form" model="ir.actions.act_window">
+        <field name="context">{'active_test': False, 'search_default_active': 1}</field>
+    </record>
+</odoo>

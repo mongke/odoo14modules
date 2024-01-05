@@ -1,0 +1,266 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_currency_revaluation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-12 09:07+0000\n"
+"PO-Revision-Date: 2018-01-12 09:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:243
+#, python-format
+msgid "%(currency)s %(account)s %(rate)s currency revaluation"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model,name:account_currency_revaluation.model_account_account
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_account_id
+msgid "Account"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_last_rate
+msgid "Balance at Last Rate"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_prev_rate
+msgid "Balance at Previous Rate"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_original
+msgid "Balance in Original Currency"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Cancel Computation"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_company_currency_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_company_currency_id
+msgid "Company currency id"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Compute"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Computed"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:231
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:233
+#, python-format
+msgid "Configuration Error!"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_create_uid
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_create_date
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_currency_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.actions.act_window,name:account_currency_revaluation.account_currency_revaluation_action
+#: model:ir.model,name:account_currency_revaluation.model_account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_revaluation_id
+#: model:ir.ui.menu,name:account_currency_revaluation.account_currency_revaluation_menu
+msgid "Currency Revaluation"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model,name:account_currency_revaluation.model_account_currency_revaluation_line
+msgid "Currency Revaluation Line"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_ids
+msgid "Currency Revaluation Lines"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:89
+#, python-format
+msgid "Currency rate is not defined on %s. To proceed, enter a rate on this date."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_date
+msgid "Date"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_difference
+msgid "Difference"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_difference_total
+msgid "Difference Total"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_display_name
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Draft"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,help:account_currency_revaluation.field_account_currency_revaluation_line_currency_id
+msgid "Forces all moves for this account to have this account currency."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_id
+msgid "ID"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_journal_id
+msgid "Journal"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation___last_update
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_write_uid
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_write_date
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Lines"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:141
+#, python-format
+msgid "Only a computed currency revaluation can be CANCELLED.You are trying to cancel a currency revaluation in state %s."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:156
+#, python-format
+msgid "Only a computed currency revaluation can be POSTED.You are trying to post a currency revaluation in state %s."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:80
+#, python-format
+msgid "Only a draft currency revaluation can be COMPUTED. You are trying to compute a currency revaluation in state '%s'."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Post"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Posted"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_rate
+msgid "Rate"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_name
+msgid "Reference"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_state
+msgid "Status"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:231
+#, python-format
+msgid "The journal %s does not have a sequence, please specify one."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:233
+#, python-format
+msgid "The sequence of journal %s is deactivated."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:165
+#, python-format
+msgid "There are already posted currency revaluations after %s.Date must be greater than last currency revaluation."
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:95
+#, python-format
+msgid "There are no accounts that allow currency revaluation!"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:131
+#, python-format
+msgid "There is no data to revaluate!"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:69
+#, python-format
+msgid "You can not delete a currency valuation that is either Computed or Posted!"
+msgstr ""
+
+#. module: account_currency_revaluation
+#: sql_constraint:account.currency.revaluation:0
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:48
+#, python-format
+msgid "You can not enter more than one currency revaluation for the same date and same currency. Combination of date and currency must be unique."
+msgstr ""
+

@@ -1,0 +1,280 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_currency_revaluation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-12 09:07+0000\n"
+"PO-Revision-Date: 2018-01-16 04:29+0000\n"
+"Last-Translator: Erdenebat Oyungerel <erdenebat@active.mn>\n"
+"Language-Team: \n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.7\n"
+"X-POOTLE-MTIME: 1516076968.000000\n"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:243
+#, python-format
+msgid "%(currency)s %(account)s %(rate)s currency revaluation"
+msgstr "%(currency)s %(account)s %(rate)s ханшийн тэгшитгэл"
+
+#. module: account_currency_revaluation
+#: model:ir.model,name:account_currency_revaluation.model_account_account
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_account_id
+msgid "Account"
+msgstr "Данс"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_last_rate
+msgid "Balance at Last Rate"
+msgstr "Сүүлийн Ханшаарх Үлдэгдэл"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_prev_rate
+msgid "Balance at Previous Rate"
+msgstr "Өмнөх Ханшаарх Үлдэгдэл"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_balance_original
+msgid "Balance in Original Currency"
+msgstr "Эх Валютаарх Үлдэгдэл"
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Cancel Computation"
+msgstr "Тооцооллыг Цуцлах"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_company_currency_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_company_currency_id
+msgid "Company currency id"
+msgstr "Компанийн валютын код"
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Compute"
+msgstr "Тооцоолох"
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Computed"
+msgstr "Тооцоологдсон"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:231
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:233
+#, python-format
+msgid "Configuration Error!"
+msgstr "Тохируулганы Алдаа!"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_create_uid
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_create_uid
+msgid "Created by"
+msgstr "Үүсгэгч"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_create_date
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_create_date
+msgid "Created on"
+msgstr "Үүсгэгдсэн"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_currency_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_currency_id
+msgid "Currency"
+msgstr "Валют"
+
+#. module: account_currency_revaluation
+#: model:ir.actions.act_window,name:account_currency_revaluation.account_currency_revaluation_action
+#: model:ir.model,name:account_currency_revaluation.model_account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_revaluation_id
+#: model:ir.ui.menu,name:account_currency_revaluation.account_currency_revaluation_menu
+msgid "Currency Revaluation"
+msgstr "Ханш Тэгшитгэл"
+
+#. module: account_currency_revaluation
+#: model:ir.model,name:account_currency_revaluation.model_account_currency_revaluation_line
+msgid "Currency Revaluation Line"
+msgstr "Ханш Тэгшитгэлийн Мөр"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_ids
+msgid "Currency Revaluation Lines"
+msgstr "Ханш Тэгшитгэлийн Мөрүүд"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:89
+#, python-format
+msgid "Currency rate is not defined on %s. To proceed, enter a rate on this date."
+msgstr ""
+"%s дээр валютын ханш тодорхойлогдоогүй байна. Боловсруулахын тулд энэ "
+"огноонд ханш оруулна уу."
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_date
+msgid "Date"
+msgstr "Огноо"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_difference
+msgid "Difference"
+msgstr "Зөрүү"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_difference_total
+msgid "Difference Total"
+msgstr "Нийт Зөрүү"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_display_name
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_display_name
+msgid "Display Name"
+msgstr "Харагдах Нэр"
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Draft"
+msgstr "Ноорог"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,help:account_currency_revaluation.field_account_currency_revaluation_line_currency_id
+msgid "Forces all moves for this account to have this account currency."
+msgstr "Энэ дансны бүх хөдөлгөөнд энэ дансны валютыг албадан авхуулах."
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_id
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_journal_id
+msgid "Journal"
+msgstr "Журнал"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation___last_update
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line___last_update
+msgid "Last Modified on"
+msgstr "Сүүлд Өөрчлөгдсөн"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_write_uid
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_write_uid
+msgid "Last Updated by"
+msgstr "Сүүлд Шинэчлэгч"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_line_write_date
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_write_date
+msgid "Last Updated on"
+msgstr "Сүүлд Шинэчлэгдсэн"
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Lines"
+msgstr "Мөрүүд"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:141
+#, python-format
+msgid "Only a computed currency revaluation can be CANCELLED.You are trying to cancel a currency revaluation in state %s."
+msgstr ""
+"Зөвхөн тооцоологдсон ханш тэгшитгэлийг ЦУЦЛАХ боломжтой. Та %s төлөвтэй ханш "
+"тэгшитгэлийг цуцлахыг оролдож байна."
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:156
+#, python-format
+msgid "Only a computed currency revaluation can be POSTED.You are trying to post a currency revaluation in state %s."
+msgstr ""
+"Зөвхөн тооцоологдсон ханш тэгшитгэлийг ТУСГАХ боломжтой. Та %s төлөвтэй ханш "
+"тэгшитгэлийг цуцлах гэж оролдож байна."
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:80
+#, python-format
+msgid "Only a draft currency revaluation can be COMPUTED. You are trying to compute a currency revaluation in state '%s'."
+msgstr ""
+"Зөвхөн ноорог ханш тэгшитгэлийг ТООЦООЛОХ боломжтой. Та %s төлөвтэй ханш "
+"тэгшитгэлийг тооцоолох гэж оролдож байна."
+
+#. module: account_currency_revaluation
+#: model:ir.ui.view,arch_db:account_currency_revaluation.account_currency_revaluation_view_form
+msgid "Post"
+msgstr "Тусгах"
+
+#. module: account_currency_revaluation
+#: selection:account.currency.revaluation,state:0
+msgid "Posted"
+msgstr "Тусгагдсан"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_rate
+msgid "Rate"
+msgstr "Ханш"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_name
+msgid "Reference"
+msgstr "Лавлагаа"
+
+#. module: account_currency_revaluation
+#: model:ir.model.fields,field_description:account_currency_revaluation.field_account_currency_revaluation_state
+msgid "Status"
+msgstr "Төлөв"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:231
+#, python-format
+msgid "The journal %s does not have a sequence, please specify one."
+msgstr "%s журнал дугаарлалтгүй байгаа тул эхлээд дугаарлалт олгоно уу."
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:233
+#, python-format
+msgid "The sequence of journal %s is deactivated."
+msgstr "%s журналын дугаарлалт идэвхгүй болсон байна."
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:165
+#, python-format
+msgid "There are already posted currency revaluations after %s.Date must be greater than last currency revaluation."
+msgstr ""
+"%s-с хойш хэдийн тусгагдсан ханш тэгшитгэл байна. Огноо нь сүүлийн ханш "
+"тэгшитгэлээс хойш байх ёстой."
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:95
+#, python-format
+msgid "There are no accounts that allow currency revaluation!"
+msgstr "Ханш тэгшитгэл хийхийг зөвшөөрсөн данс алга!"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:131
+#, python-format
+msgid "There is no data to revaluate!"
+msgstr "Ханш тэгшитгэх өгөгдөл алга!"
+
+#. module: account_currency_revaluation
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:69
+#, python-format
+msgid "You can not delete a currency valuation that is either Computed or Posted!"
+msgstr "Тооцоологдсон эсвэл Тусгагдсан ханш тэгшитгэлийг устгах боломжгүй!"
+
+#. module: account_currency_revaluation
+#: sql_constraint:account.currency.revaluation:0
+#: code:addons/account_currency_revaluation/models/account_currency_revaluation.py:48
+#, python-format
+msgid "You can not enter more than one currency revaluation for the same date and same currency. Combination of date and currency must be unique."
+msgstr ""
+"Нэг өдөрт нэг валютаар нэгээс олон ханш тэгшитгэл оруулах боломжгүй. Огноо "
+"болон валютын хослол нь давтагдашгүй байх ёстой."

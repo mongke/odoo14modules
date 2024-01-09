@@ -20,7 +20,7 @@
 
     # any module necessary for this one to work correctly
     'depends': [
-        'account_plus',
+        'account',
     ],
 
     # always loaded
